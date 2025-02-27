@@ -35,7 +35,7 @@ Counter >> decrement [
 	count := count - 1.
 ]
 
-{ #category : 'accessing' }
+{ #category : 'API' }
 Counter >> increment [
 	count := count + 1.
 ]
@@ -49,7 +49,7 @@ Counter >> initialize [
 Counter >> printOn: aStream [
 	super printOn: aStream.
 	^aStream
-		nextPutAll: 'with value ';
+		nextPutAll: ' with value ';
 		print: count;
 		yourself.
 ]
