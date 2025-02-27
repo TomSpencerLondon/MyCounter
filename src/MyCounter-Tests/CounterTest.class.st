@@ -44,5 +44,5 @@ CounterTest >> testInitialize [
 CounterTest >> testPrintString [
 	| c |
 	c := Counter new.
-	self assert: c printString equals: 'a Counterwith value 0'.
+	self assert: c printString equals: 'a Counter with value 0'.
 ]
